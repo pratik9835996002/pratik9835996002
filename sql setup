@@ -1,0 +1,85 @@
+-- Create Database
+CREATE DATABASE IF NOT EXISTS fitness_app;
+USE fitness_app;
+
+-- Create Admin Table
+CREATE TABLE IF NOT EXISTS Admin (
+    admin_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create User Table
+CREATE TABLE IF NOT EXISTS User (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    date_of_birth DATE,
+    gender ENUM('Male', 'Female', 'Other') NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create Trainer Table
+CREATE TABLE IF NOT EXISTS Trainer (
+    trainer_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    specialty VARCHAR(100),  -- e.g., 'Yoga', 'Weightlifting', 'Cardio'
+    bio TEXT,                -- Trainer's short biography
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create Program Table
+CREATE TABLE IF NOT EXISTS Program (
+    program_id INT AUTO_INCREMENT PRIMARY KEY,
+    trainer_id INT,
+    name VARCHAR(255) NOT NULL,
+    description TEXT,             -- Detailed description of the program
+    level ENUM('Beginner', 'Intermediate', 'Advanced') NOT NULL,
+    duration INT,                 -- Duration in weeks
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (trainer_id) REFERENCES Trainer(trainer_id) ON DELETE CASCADE
+);
+
+-- Create User_Programs Table to Track User Progress
+CREATE TABLE IF NOT EXISTS User_Programs (
+    user_program_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    program_id INT,
+    start_date DATE,
+    end_date DATE,
+    progress TEXT,                -- Optional: Store user’s feedback or progress
+    status ENUM('In Progress', 'Completed', 'Not Started') DEFAULT 'Not Started',
+    FOREIGN KEY (user_id) REFERENCES User(user_id) ON DELETE CASCADE,
+    FOREIGN KEY (program_id) REFERENCES Program(program_id) ON DELETE CASCADE
+);
+
+-- Example of creating an admin entry
+INSERT INTO Admin (name, email, password) 
+VALUES ('Admin Name', 'admin@fitnessapp.com', 'hashed_password_here');
+
+-- Example of creating a trainer entry
+INSERT INTO Trainer (name, email, password, specialty, bio) 
+VALUES ('John Doe', 'john@trainer.com', 'hashed_password_here', 'Yoga', 'Experienced yoga trainer with over 5 years of experience.');
+
+-- Example of creating a user entry
+INSERT INTO User (name, email, password, date_of_birth, gender) 
+VALUES ('Alice Smith', 'alice@fitnessapp.com', 'hashed_password_here', '1990-05-14', 'Female');
+
+
+
+
+Description of the Tables
+Admin Table: This stores administrative user information. Admins can manage and oversee all users, trainers, and programs. They can log in, but they are not directly involved in training or program creation.
+
+User Table: This table stores the data of users who will be using the application. It includes personal information like name, email, and date_of_birth, along with the gender to help provide more personalized fitness experiences.
+
+Trainer Table: This table stores data for the trainers. Trainers have specialties (e.g., "Yoga", "Strength Training") and can write a short biography to provide users with context about their expertise.
+
+Program Table: This table is for fitness programs that trainers create. Each program has a name, a description, and a difficulty level. Programs also have a duration (in weeks), and the trainer_id links back to the trainer who created the program.
+
+User_Programs Table: This table links users to the programs they have enrolled in. It stores information such as start_date, end_date, status, and optional progress data to track how the user is doing with the program.
