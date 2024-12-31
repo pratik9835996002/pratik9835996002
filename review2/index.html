@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Fitness Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .profile {
+            display: flex;
+            align-items: center;
+        }
+        header .profile img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        header .profile span {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .programs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+        .program {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .program h3 {
+            margin: 10px 0;
+        }
+        .program p {
+            color: #555;
+            margin: 10px 0;
+        }
+        .program button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .program button:hover {
+            background-color: #218838;
+        }
+        .form-container {
+            display: none;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        .form-container h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <script src="online_fitness_functionality.js"></script>
+
+    <header>
+        <div class="logo">Fitness App</div>
+        <div class="profile">
+            <img src="profile-placeholder.png" alt="Profile">
+            <span>User Name</span>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Welcome to the Fitness Application</h1>
+        <div class="programs">
+            <div class="program">
+                <h3>Weight Loss Program</h3>
+                <p>Join our weight loss program to shed those extra pounds effectively.</p>
+                <button onclick="showForm()">Join Now</button>
+            </div>
+            <div class="program">
+                <h3>Muscle Gain Program</h3>
+                <p>Build your strength and gain muscle with our structured plans.</p>
+                <button onclick="showForm()">Join Now</button>
+            </div>
+            <div class="program">
+                <h3>Endurance Training</h3>
+                <p>Improve your stamina and endurance for peak performance.</p>
+                <button onclick="showForm()">Join Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="form-container" id="formContainer">
+        <h1>Fitness Application Form</h1>
+        <form id="fitnessForm">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" placeholder="Enter your age" required>
+            </div>
+            <div class="form-group">
+                <label for="fitness-goal">Fitness Goal</label>
+                <select id="fitness-goal" name="fitnessGoal" required>
+                    <option value="">Select your fitness goal</option>
+                    <option value="weight-loss">Weight Loss</option>
+                    <option value="muscle-gain">Muscle Gain</option>
+                    <option value="endurance">Endurance</option>
+                    <option value="general-fitness">General Fitness</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        function showForm() {
+            document.getElementById('formContainer').style.display = 'block';
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>
