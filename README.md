@@ -4,7 +4,7 @@
 <p align="left">
   <a href="https://github.com/pratik9835996002"><img alt="GitHub followers" src="https://img.shields.io/github/followers/yourusername?label=Follow&style=social"></a>
   <a href="https://twitter.com/yourhandle"><img alt="Twitter" src="https://img.shields.io/twitter/follow/yourhandle?label=Twitter&style=social"></a>
-  <a href="mailto:you@example.com"><img alt="Mail" src="https://img.shields.io/badge/Email-you%40example.com-blue?style=flat"></a>
+  <a href="mailto:pratiksing0069@gmail.com"><img alt="Mail" src="https://img.shields.io/badge/Email-pratiksing0069@gmail.com-blue?style=flat"></a>
 </p>
 
 ---
