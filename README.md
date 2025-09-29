@@ -16,7 +16,7 @@ I’m a security researcher focused on offensive security, vulnerability discove
 <!-- Individual lines with short descriptions -->
 - ![Nmap](https://img.shields.io/badge/Nmap-Scanner-007ACC?style=for-the-badge&logo=nmap&logoColor=white&labelColor=E6F4FF) — **network discovery & port scanning.**
 - ![Kali](https://img.shields.io/badge/Kali-Linux-111827?style=for-the-badge&logo=kali-linux&logoColor=white) — **penetration testing distro and toolchain.**
-- ![Burp Suite](https://img.shields.io/badge/Burp_Suite-Proxy-F78C40?style=for-the-badge&logo=portswigger&logoColor=white) — **web proxy & security testing.**
+- ![Burp Suite](https://img.shields.io/badge/Burp_Suite-Proxy-F78C40?style=for-the-badge&logo=portswigger&logoColor=white) — **web proxy & security testing.** 
 - ![Wireshark](https://img.shields.io/badge/Wireshark-Packets-1CA9C9?style=for-the-badge&logo=wireshark&logoColor=white) —**packet capture & analysis.**
 
 ---
