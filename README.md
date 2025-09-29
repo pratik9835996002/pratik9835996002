@@ -1,81 +1,31 @@
-# Hi, I’m Pratik Singh 👋
-**Security Researcher • Bug Hunter • Developer (Java & Python)**
+Hi there,I am Pratik Singh
 
-<p align="left">
-  <a href="https://github.com/yourusername"><img alt="GitHub followers" src="https://img.shields.io/github/followers/yourusername?label=Follow&style=social"></a>
-  <a href="https://twitter.com/yourhandle"><img alt="Twitter" src="https://img.shields.io/twitter/follow/yourhandle?label=Twitter&style=social"></a>
-  <a href="mailto:you@example.com"><img alt="Mail" src="https://img.shields.io/badge/Email-you%40example.com-blue?style=flat"></a>
-</p>
+*Introduction
 
----
+#An aspiring security researcher with background in vast laguages like Java and Python
 
-## 🔭 About Me
-I’m a security researcher focused on offensive security, vulnerability discovery, and reliable exploit analysis. I have hands-on experience with **Java** and **Python** and regularly use tools like **Kali Linux, Nmap, Burp Suite,** and **Wireshark** for reconnaissance, exploitation and network analysis. I document my findings and learning journey here on GitHub.
+#Passionate about offensive security and programming and system defense
 
----
+#Documenting my learning journey as I move forward...
 
-## 🛠️ Tech & Tools
+*Skillset--
+#Offensive Security--
+<img src="https://www.kali.org/images/kali-dragon-icon.svg" alt="Web Pentesting" width="40"/>  
+<img src="https://camo.githubusercontent.com/c37716d03ad86c516aff0762ac1e5bb79a27d210e6e6cc58ef8a2efa1a0e9972/68747470733a2f2f696d672e69636f6e73382e636f6d2f3f73697a653d3235362669643d50573043686665645a76546826666f726d61743d706e67" alt="metasploit" width="50" height="40" data-canonical-src="https://img.icons8.com/?size=256&amp;id=PW0ChfedZvTh&amp;format=png" style="max-width: 100%; height: auto; max-height: 40px;">
+<img src="https://github.com/Pratham-verma/Pratham-verma/raw/main/burpsutie.png?raw=true" alt="Burpsuite" width="40" height="40" style="max-width: 100%; height: auto; max-height: 40px;">
+<img src="./assets/OIP.png" width="40" alt="Wireshark" />
 
-<!-- Language logos -->
-<p align="left">
-  <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Python" width="40" />&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" width="40" />&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/GNU-bash-logo.svg" alt="Bash" width="40" />&nbsp;
-  <img src="https://www.wireshark.org/assets/images/wireshark-icon.png" alt="Wireshark" width="40" />&nbsp;
-</p>
+#Network enumeration-NMAP,Wireshark
+<img src="https://camo.githubusercontent.com/bd546a9871a2315d2d402918dfa4aa02e6fc61a4d622bac9653efe77d9c73bad/68747470733a2f2f6e6d61702e6f72672f696d616765732f736974656c6f676f2d32782e706e67" alt="Nmap" width="60" height="40" data-canonical-src="https://nmap.org/images/sitelogo-2x.png" style="max-width: 100%; height: auto; max-height: 40px;">
+<img src="https://www.wireshark.org/assets/images/ws-logo.png" alt="Wireshark Logo"  width="60" height="40" data-canonical-src="https://nmap.org/images/sitelogo-2x.png" style="max-width: 100%; height: auto; max-height: 40px;">
+ 
 
-<!-- Tool logos -->
-<p align="left">
-  <img src="https://www.kali.org/images/logo.svg" alt="Kali" width="40" />&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Nmap_logo.svg" alt="Nmap" width="40" />&nbsp;
-  <img src="https://avatars.githubusercontent.com/u/1392723?s=200&v=4" alt="Burp" width="40" />&nbsp;
-  <img src="https://www.wireshark.org/assets/images/wireshark-icon.png" alt="Wireshark" width="40" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="40" />
-</p>
 
-> **Note:** If any logo doesn’t load reliably, host it inside your repo (e.g. `assets/wireshark.png`) and reference it as `./assets/wireshark.png`.
+#Programming-JAVA SE
 
----
+#Related certifications- https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-KZAKBZ0DTA.pdf
 
-## 👨‍💻 What I work on
-- Bug hunting & vulnerability research (web & network).
-- Writing PoCs in Python and Java.
-- Developing tooling and scripts for recon and automation.
-- Learning and sharing write-ups for CTFs & real-world bugs.
-
----
-
-## 📂 Selected Projects
-- **VulnScan-Tools** — small collection of Python scripts for automated reconnaissance and reporting.  
-- **JS-Bypass-Lab** — notes & PoCs on client-side bypasses and DOM-based issues.  
-- **Packet-Playground** — Wireshark dissector examples and packet-crafting experiments.
-
-*(Add project links below each item pointing to your repos)*
-
----
-
-## 📫 Contact
-- GitHub: [github.com/yourusername](https://github.com/yourusername)  
-- Email: you@example.com  
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)  
-- LinkedIn: [your profile](https://www.linkedin.com/in/yourprofile)
-
----
-
-## 📈 GitHub Stats
-<!-- Optional dynamic cards — replace `yourusername` -->
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=default" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact" alt="Top languages" />
-</p>
-
----
-
-### ⚙️ Quick tips to make images reliable
-1. Create an `assets/` folder in your repo and commit icons there.  
-2. Use relative links so GitHub serves them reliably:
-```markdown
-<img src="./assets/wireshark-icon.png" width="40" alt="Wireshark" />
+-https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_kxf4ry9Lp66qDCQ4L_1752085944065_completion_certificate.pdf
 
 *Contact
 EMAIL     -pratiksing0069@gmai.com
