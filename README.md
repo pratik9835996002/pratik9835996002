@@ -18,6 +18,8 @@ I’m a security researcher focused on offensive security, vulnerability discove
 - ![Kali](https://img.shields.io/badge/Kali-Linux-111827?style=for-the-badge&logo=kali-linux&logoColor=white) — **penetration testing distro and toolchain.**
 - ![Burp Suite](https://img.shields.io/badge/Burp_Suite-Proxy-F78C40?style=for-the-badge&logo=portswigger&logoColor=white) — **web proxy & security testing.** 
 - ![Wireshark](https://img.shields.io/badge/Wireshark-Packets-1CA9C9?style=for-the-badge&logo=wireshark&logoColor=white) —**packet capture & analysis.**
+- ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B) — **scripting, automation, and AI integration**  
+- ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white) — **standard-edition development**  
 
 ---
 
