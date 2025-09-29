@@ -14,26 +14,11 @@ I’m a security researcher focused on offensive security, vulnerability discove
 
 ---
 
-## 🛠️ Tech & Tools
-
-<!-- Language logos -->
-<p align="left">
-  <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Python" width="40" />&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" width="40" />&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/GNU-bash-logo.svg" alt="Bash" width="40" />&nbsp;
-  <img src="https://www.wireshark.org/assets/images/wireshark-icon.png" alt="Wireshark" width="40" />&nbsp;
-</p>
-
-<!-- Tool logos -->
-<p align="left">
-  <img src="https://www.kali.org/images/logo.svg" alt="Kali" width="40" />&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Nmap_logo.svg" alt="Nmap" width="40" />&nbsp;
-  <img src="https://avatars.githubusercontent.com/u/1392723?s=200&v=4" alt="Burp" width="40" />&nbsp;
-  <img src="https://www.wireshark.org/assets/images/wireshark-icon.png" alt="Wireshark" width="40" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="40" />
-</p>
-
-
+<!-- Individual lines with short descriptions -->
+- ![Nmap](https://img.shields.io/badge/Nmap-Scanner-007ACC?style=for-the-badge&logo=nmap&logoColor=white&labelColor=E6F4FF) — **network discovery & port scanning.**
+- ![Kali](https://img.shields.io/badge/Kali-Linux-111827?style=for-the-badge&logo=kali-linux&logoColor=white) — **penetration testing distro and toolchain.**
+- ![Burp Suite](https://img.shields.io/badge/Burp_Suite-Proxy-F78C40?style=for-the-badge&logo=portswigger&logoColor=white) — **web proxy & security testing.**
+- ![Wireshark](https://img.shields.io/badge/Wireshark-Packets-1CA9C9?style=for-the-badge&logo=wireshark&logoColor=white) —**packet capture & analysis.**
 
 ---
 
@@ -61,18 +46,3 @@ I’m a security researcher focused on offensive security, vulnerability discove
 - LinkedIn: [your profile](https://www.linkedin.com/in/yourprofile)
 
 ---
-
-## 📈 GitHub Stats
-<!-- Optional dynamic cards — replace `yourusername` -->
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=default" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact" alt="Top languages" />
-</p>
-
----
-
-### ⚙️ Quick tips to make images reliable
-1. Create an `assets/` folder in your repo and commit icons there.  
-2. Use relative links so GitHub serves them reliably:
-```markdown
-<img src="./assets/wireshark-icon.png" width="40" alt="Wireshark" />
