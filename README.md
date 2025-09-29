@@ -2,7 +2,7 @@
 **Security Researcher • Bug Hunter • Developer (Java & Python)**
 
 <p align="left">
-  <a href="https://github.com/yourusername"><img alt="GitHub followers" src="https://img.shields.io/github/followers/yourusername?label=Follow&style=social"></a>
+  <a href="https://github.com/pratik9835996002"><img alt="GitHub followers" src="https://img.shields.io/github/followers/yourusername?label=Follow&style=social"></a>
   <a href="https://twitter.com/yourhandle"><img alt="Twitter" src="https://img.shields.io/twitter/follow/yourhandle?label=Twitter&style=social"></a>
   <a href="mailto:you@example.com"><img alt="Mail" src="https://img.shields.io/badge/Email-you%40example.com-blue?style=flat"></a>
 </p>
@@ -33,15 +33,15 @@ I’m a security researcher focused on offensive security, vulnerability discove
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="40" />
 </p>
 
-> **Note:** If any logo doesn’t load reliably, host it inside your repo (e.g. `assets/wireshark.png`) and reference it as `./assets/wireshark.png`.
+
 
 ---
 
 ## 👨‍💻 What I work on
 - Bug hunting & vulnerability research (web & network).
-- Writing PoCs in Python and Java.
-- Developing tooling and scripts for recon and automation.
-- Learning and sharing write-ups for CTFs & real-world bugs.
+- DSA IN JAVA
+- RECONASSAINCE
+- Learning and sharing write-ups and post on related technical topics
 
 ---
 
@@ -56,7 +56,7 @@ I’m a security researcher focused on offensive security, vulnerability discove
 
 ## 📫 Contact
 - GitHub: [github.com/yourusername](https://github.com/yourusername)  
-- Email: you@example.com  
+- Email: praiksing0069@gmail.com  
 - Twitter: [@yourhandle](https://twitter.com/yourhandle)  
 - LinkedIn: [your profile](https://www.linkedin.com/in/yourprofile)
 
