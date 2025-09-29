@@ -3,7 +3,6 @@
 
 <p align="left">
   <a href="https://github.com/pratik9835996002"><img alt="GitHub followers" src="https://img.shields.io/github/followers/yourusername?label=Follow&style=social"></a>
-  <a href="https://twitter.com/yourhandle"><img alt="Twitter" src="https://img.shields.io/twitter/follow/yourhandle?label=Twitter&style=social"></a>
   <a href="mailto:pratiksing0069@gmail.com"><img alt="Mail" src="https://img.shields.io/badge/Email-pratiksing0069@gmail.com-blue?style=flat"></a>
 </p>
 
@@ -30,19 +29,9 @@ I’m a security researcher focused on offensive security, vulnerability discove
 
 ---
 
-## 📂 Selected Projects
-- **VulnScan-Tools** — small collection of Python scripts for automated reconnaissance and reporting.  
-- **JS-Bypass-Lab** — notes & PoCs on client-side bypasses and DOM-based issues.  
-- **Packet-Playground** — Wireshark dissector examples and packet-crafting experiments.
-
-*(Add project links below each item pointing to your repos)*
-
----
-
 ## 📫 Contact
-- GitHub: [github.com/yourusername](https://github.com/yourusername)  
+- GitHub: [github.com/pratik9835996002](https://github.com/pratik9835996002)  
 - Email: praiksing0069@gmail.com  
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)  
-- LinkedIn: [your profile](https://www.linkedin.com/in/yourprofile)
+- LinkedIn:[pratik-singh-03b479289](www.linkedin.com/in/pratik-singh-03b479289)
 
 ---
