@@ -1,4 +1,4 @@
-# Hi, I’m Pratik Singh aka CoderCat 😸💻 👋
+# Hi, I’m Pratik Singh aka CoderCaT 😸💻 👋
 **Security Researcher • Bug Hunter • Developer (Java & Python)**
 
 <p align="left">
